@@ -11,10 +11,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
   <!-- Style CSS -->
-  <link rel="stylesheet" href="public/assets/CSS/global.css">
+  <link rel="stylesheet" href="/assets/CSS/global.css">
 
   <!-- TailwindCSS -->
   <script src="https://cdn.tailwindcss.com"></script>
+  <script src="/assets/JS/tailwindCustom.js"></script>
 
   <!-- Phosphor Icons -->
   <script src="https://unpkg.com/@phosphor-icons/web"></script>
@@ -25,8 +26,8 @@
 </head>
 
 <body class="relative min-w-[375px] sm:h-screen sm:overflow-hidden">
-  <header class="absolute z-10 w-full flex items-center justify-center pt-[70px] px-10 sm:pt-[90px]">
-    <a href="#" class="absolute left-8 rounded-full focus:outline-pink-secondary hidden">
+  <header id="fixedHeader" class="absolute z-10 w-full flex items-center justify-center pt-[70px] px-10 sm:pt-[90px]">
+    <a href="#" class="absolute left-8 rounded-full focus:outline-pink-secondary">
       <i class="ph-bold ph-arrow-left text-2xl"></i>
     </a>
 
@@ -36,7 +37,7 @@
 
   <?php require base_path("/app/views/{$view}.view.php"); ?>
 
-  <script src="/assets/JS/tailwindCustom.js"></script>
+  <script src="/assets/JS/globalScripts.js" defer></script>
 </body>
 
 </html>
