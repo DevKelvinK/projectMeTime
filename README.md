@@ -87,8 +87,8 @@ cd projectMeTime
 
 ### 🏠 Página Inicial
 
-* [ ] Página de acesso a redes sociais e contatos da loja/profissionais
-* [ ] Página inicial com apresentação do serviço e acesso ao agendamento
+* [x] Página de acesso a redes sociais e contatos da loja/profissionais
+* [x] Página inicial com apresentação do serviço e acesso ao agendamento
 
 ### 🔐 Autenticação e Usuários
 
@@ -143,7 +143,7 @@ cd projectMeTime
 
 * [ ] Customização do sistema por tipo de negócio
 * [ ] Relatórios e métricas
-* [  ] Melhorias de UX/UI
+* [ ] Melhorias de UX/UI
 
 ---
 
